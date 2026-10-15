@@ -1,0 +1,7 @@
+name = "arkensans"
+main = "functions/[[server]].ts"
+compatibility_date = "2023-10-22"
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"

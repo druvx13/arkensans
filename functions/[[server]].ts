@@ -34,3 +34,6 @@ app.notFound((c) => {
 });
 
 export const onRequest = handle(app);
+export default {
+  fetch: app.fetch,
+};
